@@ -42,7 +42,7 @@ def run_test_sum_cosines():
     print('       actual:', answer)
 
     # Test 3:
-    expected = 
+    expected =
     answer = sum_cosines(8)
     print('Test 3 expected:', expected)
     print('       actual:', answer)
