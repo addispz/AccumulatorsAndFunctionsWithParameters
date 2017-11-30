@@ -37,7 +37,7 @@ def main():
 def run_test_sum_of_digits():
     """ Tests the  sum_of_digits   function. """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement this TEST function, as follows:
+    # DONE: 2. Implement this TEST function, as follows:
     #
     #  Step 1:  This TEST function tests the  sum_of_digits  function.
     #    So read the doc-string of the  sum_of_digits  function
@@ -71,6 +71,28 @@ def run_test_sum_of_digits():
     # TO DO: 2 (continued).
     # Below this comment, add 3 more test cases of your own choosing.
     # ------------------------------------------------------------------
+    print()
+    print('--------------------------------------------------')
+    print('Testing the   sum_of_digits   function:')
+    print('--------------------------------------------------')
+
+    # Test 2:
+    expected = 20
+    answer = sum_of_digits(488)
+    print('Test 2 expected:', expected)
+    print('       actual:',   answer)
+
+    # Test 3:
+    expected = 23
+    answer = sum_of_digits(995)
+    print('Test 3 expected:', expected)
+    print('       actual:',   answer)
+
+    # Test 4:
+    expected = 11
+    answer = sum_of_digits(74)
+    print('Test 4 expected:', expected)
+    print('       actual:',   answer)
 
 
 def sum_of_digits(number):
@@ -134,6 +156,23 @@ def run_test_digits_in_cube():
     print('Testing the   digits_in_cube   function:')
     print('-----------------------------------------------------')
 
+    # Test 1:
+    expected = 9
+    answer = digits_in_cube(6)
+    print('Test 1 expected:', expected)
+    print('       actual:', answer)
+
+    # Test 2:
+    expected = 18
+    answer = digits_in_cube(21)
+    print('Test 2 expected:', expected)
+    print('       actual:', answer)
+
+    # Test 3:
+    expected = 10
+    answer = digits_in_cube(7)
+    print('Test 3 expected:', expected)
+    print('       actual:', answer)
 
 def digits_in_cube(n):
     """
@@ -154,6 +193,8 @@ def digits_in_cube(n):
     #    the    sum_of_digits    function that is DEFINED ABOVE.
     ####################################################################
     # ------------------------------------------------------------------
+
+    sum_of_digits()
 
 
 def run_test_digits_in_power():
