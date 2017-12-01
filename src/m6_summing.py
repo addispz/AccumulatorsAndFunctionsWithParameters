@@ -8,6 +8,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
+
 def main():
     """ Calls the   TEST   functions in this module. """
     run_test_sum_cosines()
@@ -30,19 +31,19 @@ def run_test_sum_cosines():
     print('--------------------------------------------------')
 
     # Test 1:
-    expected =
+    expected = 5.99
     answer = sum_cosines(5)
     print('Test 1 expected:', expected)
     print('       actual:', answer)
 
     # Test 2:
-    expected =
+    expected = 10.94
     answer = sum_cosines(10)
     print('Test 2 expected:', expected)
     print('       actual:', answer)
 
     # Test 3:
-    expected =
+    expected = 8.97
     answer = sum_cosines(8)
     print('Test 3 expected:', expected)
     print('       actual:', answer)
@@ -66,6 +67,10 @@ def sum_cosines(n):
     #   No fair running the code of  sum_cosines  to GENERATE
     #   test cases; that would defeat the purpose of TESTING!
     # ------------------------------------------------------------------
+
+    total = (math.c)
+    actual = sum_of_digits(total)
+    return actual
 
 
 def run_test_sum_square_roots():
