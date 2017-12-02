@@ -7,7 +7,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
          their colleagues and Patrick Addis.
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
-
+import math
 
 def main():
     """ Calls the   TEST   functions in this module. """
@@ -68,8 +68,9 @@ def sum_cosines(n):
     #   test cases; that would defeat the purpose of TESTING!
     # ------------------------------------------------------------------
 
-    total = (math.c)
-    actual = sum_of_digits(total)
+    total = (math.cos(k))
+    k = for in range k in range(n):
+    actual = total(total)
     return actual
 
 
