@@ -93,6 +93,33 @@ def draw_circles():
 #   better_draw_circles  and  run_test_better_draw_circles.
 # ----------------------------------------------------------------------
 
+def run_test_better_draw_circles():
+    print()
+    print('--------------------------------------------------')
+    print('Testing  better_draw_circles:  See graphics window')
+    print('--------------------------------------------------')
+    better_draw_circles()
+
+    # Test 1:
+    expected = 8.69213
+
+    # Test 2:
+    expected = 23.06017
+
+    # Test 3:
+    expected = 31.77494
+
+
+def better_draw_circles():
+    window = rg.RoseWindow(400, 400)
+
+    center = rg.Point(200, 200)
+    for k in range(21):
+        circle = rg.Circle(radius= 10*k)
+        circle.attach_to(window)
+        window.render(0.05)
+
+    window.close_on_mouse_click()
 
 # ----------------------------------------------------------------------
 # TODO: 3.
