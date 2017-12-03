@@ -76,7 +76,7 @@ def print_sequence2():
       390.
     """
     # ------------------------------------------------------------------
-    # TODO: 4. Implement this function, per its doc-string above.
+    # DONE: 4. Implement this function, per its doc-string above.
     # Put a statement in  main  to test this function.
     # REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     # ------------------------------------------------------------------
@@ -84,6 +84,9 @@ def print_sequence2():
     print('--------------------------------------------------')
     print('Running print_sequence2:')
     print('--------------------------------------------------')
+
+    for k in range(18):
+        print((20 * k) + 50)
 
 
 def draw_circles2():
