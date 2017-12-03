@@ -30,7 +30,7 @@ def print_sequence1():
        200
     """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement this function, per its doc-string above.
+    # DONE: 2. Implement this function, per its doc-string above.
     # Put a statement in  main  to test this function.
     # REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     # ------------------------------------------------------------------
@@ -39,12 +39,9 @@ def print_sequence1():
     print('Running print_sequence1:')
     print('--------------------------------------------------')
 
-    n = 20
-    total = 0
-    for k in range(n):
-        total = k*10
+    for k in range(21):
+        print(k * 10)
 
-    print(total)
 
 
 def draw_circles1():
