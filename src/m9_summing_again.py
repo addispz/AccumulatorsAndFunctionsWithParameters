@@ -69,8 +69,8 @@ def sum_powers(n, p):
     # ------------------------------------------------------------------
 
     total = 0
-    for k in range(n + 1):
-        total = total + (n ** p)
+    for k in range(n):
+        total = total + ((k +1) ** p)
 
     return total
 
@@ -130,8 +130,8 @@ def sum_powers_in_range(m, n, p):
     # ------------------------------------------------------------------
 
     total = 0
-    for k in range(n + 1):
-        total = total + ((m + n) ** p)
+    for k in range((n + 1) - m):
+        total = total + ((m + k) ** p)
 
     return total
 
